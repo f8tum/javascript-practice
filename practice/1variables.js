@@ -11,6 +11,7 @@ let c = false; // let is block scoped
 const d = 100; // const is block scoped can't be reinitialized
 
 console.log(`${a} ${b} ${c} ${d}`);
+console.log('\n');
 console.log(typeof b);
 console.log(typeof c);
 console.log(typeof d);
