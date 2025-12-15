@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checked</title>
+  <link rel="stylesheet" href="9checked.css">
+</head>
+<body>
+  <div class="form-container">
+      <form>
+        <input type="checkbox" name="subscribe" id="myCheckbox">
+        <label>Subscribe</label>
+        <br><br>
+        <input type="radio" name="card" id="visa">
+        <label>Visa</label>
+        <br><br>
+        <input type="radio" name="card" id="mastercard">
+        <label>MasterCard</label>
+        <br><br>
+        <input type="radio" name="card" id="paypal">
+        <label>PayPal</label>
+        <br><br>
+        <input type="button" value="Submit" onclick="saySelected()">
+    </form>
+  </div>
+
+  <p id="subResult"></p>
+  <p id="paymentResult"></p>
+
+  <script src="9checked.js"></script>
+</body>
+</html>
