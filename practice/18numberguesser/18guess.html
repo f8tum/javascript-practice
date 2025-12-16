@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Guesser</title>
+  <link rel="stylesheet" href="18guess.css">
+</head>
+<body>
+  <p id="result"></p>
+
+  <div class="form-container">
+    <form onsubmit="return guess()">
+      <label>Number</label>
+      <input type="text" name="num" id="num" placeholder="Enter a number between 0 - 100" required>
+      <br><br>
+      <input type="submit" value="Guess">
+    </form>
+  </div>
+
+  <script src="18guess.js"></script>
+</body>
+</html>
