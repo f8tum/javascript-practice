@@ -1,0 +1,15 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  margin: 20em auto;
+  padding: 1.5em;
+  border: 1px solid white;
+  border-radius: 1em;
+}
+
+input {
+  padding: 0.4em;
+  border: 0.1em solid white;
+  border-radius: 0.8em;
+}
