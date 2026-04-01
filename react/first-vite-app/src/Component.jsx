@@ -16,9 +16,11 @@ export default function Gallery() {
     <div>
       <h1>Scientists</h1>
 
-      <Profile />
-      <Profile />
-      <Profile />
+      <div className="flex flex-row items-center mb-9">
+        <Profile />
+        <Profile />
+        <Profile />
+      </div>
     </div>
   );
 }
