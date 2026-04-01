@@ -5,11 +5,13 @@ import './index.css'
 import Gallery from './Component'
 import Avatar from './Avatar'
 import Profile from './Props'
+import PackingList from './Conditionalrendering'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* components can be used like custon html tags */}
     <App/>
     <Profile />
+    <PackingList />
   </StrictMode>,
 )
