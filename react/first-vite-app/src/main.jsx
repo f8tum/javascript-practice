@@ -8,6 +8,7 @@ import PackingList from './Conditionalrendering'
 import List from './FilterMap'
 import Toolbar from './EventsAsProps'
 import Slide from './State'
+import Counter from './QueueingStates';
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
@@ -19,5 +20,6 @@ createRoot(document.getElementById('root')).render(
     <List />
     <Toolbar />
     <Slide />
+    <Counter />
   </StrictMode>,
 )
