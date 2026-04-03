@@ -9,7 +9,9 @@ import List from './FilterMap'
 import Toolbar from './EventsAsProps'
 import Slide from './State'
 import Counter from './QueueingStates';
+import MovingDot from './ObjectsInState'
 import './index.css'
+import Form from './ObjectsInState'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -21,5 +23,6 @@ createRoot(document.getElementById('root')).render(
     <Toolbar />
     <Slide />
     <Counter />
+    <Form />
   </StrictMode>,
 )

@@ -13,6 +13,9 @@ export default function Counter() {
       <h1>{number}</h1>
       <button className="border-1 p-2"
         onClick = {() => {
+          // stores it in queue and adds it during the queue
+          // after the queue is processed
+          // the component is rendered
           setNumber(n => n + 1);
           setNumber(n => n + 1);
           setNumber(n => n + 1);
