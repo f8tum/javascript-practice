@@ -6,7 +6,7 @@ import { useState } from "react";
 export default function Accordion() {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
-    <div className="border mt-4 p-2">
+    <div className="border my-8 p-2">
       <h2>Almaty, Kazakhstan</h2>
       <Panel
         title="About"
